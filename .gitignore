@@ -57,3 +57,7 @@ jest/
 
 # Git-specific
 .git/
+
+# Ignore Google Cloud Service Account Key
+config/service-account.json
+.env
