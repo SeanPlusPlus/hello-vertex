@@ -12,7 +12,7 @@ process.env.GOOGLE_APPLICATION_CREDENTIALS = path.resolve(process.env.GOOGLE_APP
 const vertexAi = new VertexAI({ project: 'csvai-407816', location: 'us-central1' });
 
 // Load the text model (Gemini)
-const model = vertexAi.getGenerativeModel({ model: 'gemini-pro' });
+const model = vertexAi.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
 async function generateText(prompt) {
   try {
